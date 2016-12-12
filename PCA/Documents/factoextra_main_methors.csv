@@ -1,0 +1,29 @@
+Visualizing the outputs of dimension reduction analyses,
+fviz_eig (or fviz_eigenvalue),Extract and visualize the eigenvalues/variances of dimensions.
+fviz_pca,Graph of individuals/variables from the output of Principal Component Analysis (PCA).
+fviz_ca,Graph of column/row variables from the output of Correspondence Analysis (CA).
+fviz_mca),Graph of individuals/variables from the output of Multiple Correspondence Analysis (MCA).
+fviz_mfa,Graph of individuals/variables from the output of Multiple Factor Analysis (MFA).
+fviz_hmfa,Graph of individuals/variables from the output of Hierarchical Multiple Factor Analysis (HMFA).
+fviz_cos2,"Visualize the quality of the representation of the row/column variable from the results of PCA, CA, MCA functions."
+fviz_contrib,"Visualize the contributions of row/column elements from the results of PCA, CA, MCA functions."
+,
+Extracting data from the outputs of dimension reduction analyses,
+get_eig (or get_eigenvalue),Extract and visualize the eigenvalues/variances of dimensions.
+get_pca,"Extract all the results (coordinates, squared cosine, contributions) for the active individuals/variables from Principal Component Analysis (PCA) outputs."
+get_ca,"Extract all the results (coordinates, squared cosine, contributions) for the active column/row variables from Correspondence Analysis outputs."
+get_mca,Extract results from Multiple Correspondence Analysis outputs.
+get_mfa,Extract results from Multiple Factor Analysis outputs.
+get_hmfa,Extract results from Hierarchical Multiple Factor Analysis outputs.
+facto_summarize,Subset and summarize the output of factor analyses.
+,
+Enhanced clustering analysis and visualization,
+"dist(fviz_dist, get_dist)",Enhanced Distance Matrix Computation and Visualization.
+get_clust_tendency,Assessing Clustering Tendency.
+fviz_nbclust(fviz_gap_stat),Determining and Visualizing the Optimal Number of Clusters.
+fviz_dend,Enhanced Visualization of Dendrogram
+fviz_cluster,Visualize Clustering Results
+fviz_silhouette,Visualize Silhouette Information from Clustering.
+hcut,Computes Hierarchical Clustering and Cut the Tree
+"hkmeans (hkmeans_tree, print.hkmeans)",Hierarchical k-means clustering.
+eclust,Visual enhancement of clustering analysis
